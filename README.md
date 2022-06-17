@@ -30,18 +30,18 @@ As a user....
 
 *** Rough Draft of Wireframes
 
-![StartingPage](https://imgur.com/mkhN6zk)
+![StartingPage](https://i.imgur.com/mkhN6zk.png)
 
 
 
-![True/FalseQuestion](https://imgur.com/7R7VRLL)
+![True/FalseQuestion](https://i.imgur.com/7R7VRLL.png)
 
-![MultipleChoice](https://imgur.com/qvhmzvx)
+![MultipleChoice](https://imgur.com/qvhmzvx.png)
 
-![CorrectAnswer](https://imgur.com/3fSijoM)
+![CorrectAnswer](https://imgur.com/3fSijoM.png)
 
-![WrongAnswer](https://imgur.com/7o6flCO)
+![WrongAnswer](https://imgur.com/7o6flCO.png)
 
-![GameOver1](https://imgur.com/51n842h)
+![GameOver1](https://imgur.com/51n842h.png)
 
-![GameOver2](https://imgur.com/ACbRfEK)
+![GameOver2](https://imgur.com/ACbRfEK.png)
