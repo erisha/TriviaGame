@@ -4,9 +4,48 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <title>Risha's Random Trivia</title>
 </head>
+
+
 <body>
     
+    <h1 id="pressPlayTxt">Press Play</h1>
+
+
+        <br>
+        <br>
+        <br>
+
+
+    <div class="container">
+        <div class="score">
+            <span id="userScore">0</span>
+            <span id="totalScore">/ 10</span>
+        </div>
+    <div class="content" id="questionContent">
+        <div class="question"></div>
+        <div class="multipleChoice">
+            <button class="button btnMultipleChoice" id="choiceA">A.</button>
+            <button class="button btnMultipleChoice" id="choiceB">B.</button>
+            <button class="button btnMultipleChoice" id="choiceC">C.</button>
+            <button class="button btnMultipleChoice" id="choiceD">D.</button>
+        </div>
+        <div class ="true-falseQuestion">
+            <button class="button btnTrue-False" id="True">True</button>
+            <button class="button btnTrue-False" id="False">False</button>
+        </div>
+    </div>
+
+    <div class="controlCenter">
+        <button class="button playButton" id="play">Play</button>
+        <button class="button nextQuestion" id="next">Next</button>
+        <button class="button restart" id="restart">Restart</button>
+
+    </div>
+    </div> 
+    <p id="letsSee">Let's see what you know ...</p>
 </body>
+    
 </html>

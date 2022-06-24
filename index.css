@@ -1,0 +1,91 @@
+html {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+body {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+}
+.container{
+    max-width: 90%;
+    width: 90vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgba(34, 32, 32, 0.616);
+
+}
+
+.score {
+    font-size: large;
+    font-weight: bold;
+}
+    #userScore {
+        color: whitesmoke;
+    }
+    #totalScore{
+        color: whitesmoke;
+    }
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    cursor: pointer;
+    font-size: large;
+    font-weight: bold;
+    color: gold;
+    background-color: transparent;
+    padding: 10px;
+    margin: 5px;
+
+}
+.button:hover {
+    color: palevioletred;
+    padding: 15px
+}
+
+.multipleChoice {
+    order: 4;
+    padding: 10px;
+}
+
+.true-falseQuestion {
+    order: 2;
+    padding: 10px;
+}
+
+#pressPlayTxt {
+    color: hotpink;
+    font-size: 100px;
+    align-content: center;
+    
+}
+
+
+
+#letsSee {
+    color: gold;
+    font-size: 20px;
+}
+
+button {
+    color: transparent
+}
+
+.hide{
+    display: none;
+}
+
+
