@@ -1,7 +1,7 @@
 html {
     background-color: black;
     margin: 0;
-    padding: 0;
+    padding: 50px;
 }
 body {
     justify-content: center;
@@ -11,7 +11,7 @@ body {
     height: 100vh;
 
 }
-.container{
+#container{
     max-width: 90%;
     width: 90vw;
     height: 80vh;
@@ -24,7 +24,69 @@ body {
 
 }
 
-.score {
+.question{
+  color:white;  
+  font-size: 30px;
+  padding: 10px;
+  
+}
+
+.choice {
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: gold;
+    background-color: transparent;
+    padding: 10px;
+    margin: 5px;
+
+}
+.choice:hover {
+    color: palevioletred;
+    padding: 15px
+}
+
+.btnMultipleChoice {
+    order: 4;
+    padding: 10px;
+}
+
+
+/* .true-falseQuestion {
+    order: 2;
+    padding: 10px;
+} */
+
+
+.playButton{
+    width: 100px;
+    height: 100px;
+    border-style:ridge;
+    border-width: 50px 0px 50px 100px;
+    border-color: transparent transparent transparent deeppink;
+    box-sizing: border-box;
+    font-size: 100px;
+    align-content: center;
+    background-color: transparent;
+    
+}
+
+.button{
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: bold;
+    color: gold;
+    background-color: transparent;
+    padding: 10px;
+    margin: 10px;
+}
+
+.button:hover {
+    color: palevioletred;
+    padding: 15px
+}
+
+#score {
     font-size: large;
     font-weight: bold;
 }
@@ -34,55 +96,19 @@ body {
     #totalScore{
         color: whitesmoke;
     }
-.content {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+
+#pressPlayTxt{
+    color: goldenrod;
+    font-size: 30px;
 }
-
-.button {
-    cursor: pointer;
-    font-size: large;
-    font-weight: bold;
-    color: gold;
-    background-color: transparent;
-    padding: 10px;
-    margin: 5px;
-
-}
-.button:hover {
-    color: palevioletred;
-    padding: 15px
-}
-
-.multipleChoice {
-    order: 4;
-    padding: 10px;
-}
-
-.true-falseQuestion {
-    order: 2;
-    padding: 10px;
-}
-
-#pressPlayTxt {
-    color: hotpink;
-    font-size: 100px;
-    align-content: center;
-    
-}
-
-
 
 #letsSee {
     color: gold;
-    font-size: 20px;
+    font-size: 15px;
+    font-weight: lighter;
 }
 
-button {
-    color: transparent
-}
+
 
 .hide{
     display: none;

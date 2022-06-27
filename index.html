@@ -7,45 +7,37 @@
     <link rel="stylesheet" href="index.css">
     <title>Risha's Random Trivia</title>
 </head>
-
-
 <body>
-    
-    <h1 id="pressPlayTxt">Press Play</h1>
-
-
-        <br>
-        <br>
-        <br>
-
-
-    <div class="container">
-        <div class="score">
-            <span id="userScore">0</span>
-            <span id="totalScore">/ 10</span>
+    <div id="container">
+        <div id="pressPlay">
+         <button onclick="play", class= "playButton" id="play"></button>
+            <h1 id="pressPlayTxt">Press Play </h1>
+            <h2 id="letsSee"> & lets's see what you know...
+            </h2>
         </div>
-    <div class="content" id="questionContent">
-        <div class="question"></div>
-        <div class="multipleChoice">
-            <button class="button btnMultipleChoice" id="choiceA">A.</button>
-            <button class="button btnMultipleChoice" id="choiceB">B.</button>
-            <button class="button btnMultipleChoice" id="choiceC">C.</button>
-            <button class="button btnMultipleChoice" id="choiceD">D.</button>
+        <div id="game" style="display: none">
+            <div class="question" id="question"></div>
+            <div class="multipleChoice" id="answerChoice">
+                <button class="choice btnMultipleChoice" id="A" onclick="checkAnswer('A')">A </button>
+                <button class="choice btnMultipleChoice" id="B" onclick="checkAnswer('B')">B.</button>
+                <button class="choice btnMultipleChoice" id="C"onclick="checkAnswer('C')">C.</button>
+                <button class="choice btnMultipleChoice" id="D" onclick="checkAnswer('D')">D.</button>
+            </div>
+            <!-- <div class ="true-falseQuestion" id="answerChoice">
+                <button class="choice btnTrue-False" id="True" onclick="checkAnswer('true')">True</button>
+                <button class="choice btnTrue-False" id="False" onclick="checkAnswer('false')">False</button>
+            </div> -->
         </div>
-        <div class ="true-falseQuestion">
-            <button class="button btnTrue-False" id="True">True</button>
-            <button class="button btnTrue-False" id="False">False</button>
+        <div id="scoreContainer" style="display: none">
+            <!-- <span id="userScore"></span>
+            <span id="totalScore">/ 10</span> -->
         </div>
-    </div>
 
-    <div class="controlCenter">
-        <button class="button playButton" id="play">Play</button>
-        <button class="button nextQuestion" id="next">Next</button>
-        <button class="button restart" id="restart">Restart</button>
-
-    </div>
-    </div> 
-    <p id="letsSee">Let's see what you know ...</p>
+        <div id="controlCenter" style="display: none">
+            <button onclick="restart"   class="button restart" id="restart">Restart</button>
+            <button onclick="next" class="button nextQuestion" id="next">Next</button>
+        </div>
+    </div>    
+    <script src="index.js"></script>   
 </body>
-    
 </html>
